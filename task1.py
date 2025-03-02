@@ -1,2 +1,2 @@
-number=input()[::-1]
-print(number[2])
+number=int(input())
+print(number//100-number//1000*10)

@@ -1,0 +1,5 @@
+figure=input()
+number=int(input())
+multiplier=int(input())
+figure_number=int(figure*number)
+print(figure_number*multiplier)

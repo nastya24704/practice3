@@ -1,7 +1,7 @@
 lines=int(input())
 columns=int(input())
 number=int(input())
-#page*cjlumns*lines= number
+#page*columns*lines= number
 page=number//columns//lines+1
 #55=(x-1)25
 column=(number-(page-1)*lines*columns)//lines+1
